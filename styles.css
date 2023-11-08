@@ -550,7 +550,7 @@ footer{
         - add the puppy-photo as a repeating background to the container
 */
 #bg-img-3{
-    background: var(--lt-blue) right no-repeat url("images/puppy-photo.jpg")
+    background: var(--lt-blue) right no-repeat url("images/puppy-photo.jpg");
     
 }
 
@@ -578,6 +578,8 @@ footer{
         - add the wood background texture from the images folder
 */
 #pattern1{
+    background: var(--light-gray) 110% url("images/wood.png");
+
     
 }
 
@@ -635,6 +637,7 @@ footer{
         - float the image to the right
 */
 #dog-house{
+    float: right;
     
 }
 
@@ -644,6 +647,7 @@ footer{
         - clear any floats
 */
 #section9{
+    clear: both;
     
 }
 
